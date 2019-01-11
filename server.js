@@ -8,11 +8,7 @@ var path = require("path");
 // =============================================================
 var app = express();
 var PORT = process.env.PORT || 3000;
-<<<<<<< HEAD
-
-=======
    
->>>>>>> 17bc30a689768c9ef1b55a5f016a9cf3edcc55a9
 // Sets up the Express app to handle data parsing
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
